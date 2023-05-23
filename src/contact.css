@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+#contact {
+    font-family: 'Lora', serif;
+    padding-bottom: 3rem;
+}
+#contact h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container.contact__container {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+    background: #fff;
+    padding: 3rem;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    font-family: 'Lora', serif;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background: #f0f0f0;
+    border: 1px solid #ebebeb;
+    resize: none;
+    color: #333;
+    font-size: 1rem;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+::placeholder,
+textarea::-webkit-input-placeholder { /* WebKit browsers */
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+form button {
+    align-self: flex-end;
+}
+form .submit {
+    background-color: #facf0f;
+    color: #111;
+    padding: 1rem 2rem;
+    border: transparent;
+}
+
+/* media queries */
+@media screen and (max-width:1280px) {
+    #contact .divider {
+        width: 6%;
+    }
+}
+
+
+@media screen and (max-width:912px) {
+    .container.contact__container {
+        width: 80%;
+        padding: 3rem;
+    }
+}
+@media screen and (max-width:540px) {
+    .divider {
+        width: 10% !important;
+    }
+    .container.contact__container {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:393px) {
+    #contact h1 {
+        font-size: 2.3rem;
+    }
+    .container.contact__container {
+        padding: 1.5rem;
+    }
+    input, textarea {
+        font-size: 0.8rem;
+    }
+    form .submit {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:393px) {
+    #contact h1 {
+        font-size: 1.7rem;
+    }
+    .container.contact__container {
+        padding: 1rem;
+    }
+    input, textarea {
+        font-size: 0.6rem;
+    }
+    form .submit {
+        font-size: 0.6rem;
+        padding: 0.5rem 0.8rem;
+    }
+}

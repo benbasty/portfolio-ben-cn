@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+    height: 100vh;
+    font-family: 'Lora', serif;
+}
+
+.aboutme_header {
+    text-align: center;
+}
+.aboutme_header h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.aboutme_header .divider {
+    margin: 1rem auto;
+    border-bottom: 8px solid #f7e704;
+    width: 3%;
+    border-radius: 5px;
+}
+.aboutme_content {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.aboutme_content_description {
+    width: 50%;
+}
+
+.aboutme_content_description  p {
+    margin: 1rem 0;
+    color: #666;
+}
+
+.aboutme_content_description  p span {
+    font-weight: 700;
+    color: #333;
+}
+
+.aboutme_content_description .downloadAndContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.aboutme_content_description .downloadAndContact a:first-child {
+    background-color: #000;
+    color: #fafafa;
+    border: transparent;
+}
+
+.aboutme_content_description .downloadAndContact a:nth-child(2) {
+    background-color: #3e8ed0;
+    color: #fafafa;
+    border: transparent;
+}
+
+
+.aboutme_content_skills {
+    width: 50%;
+}
+.aboutme_content_description h2, .aboutme_content_skills h2 {
+    margin: 1.5rem 0;
+    font-weight: 700;
+}
+
+.aboutme_content_skills .allSkills {
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.aboutme_content_skills .allSkills .singleSkill {
+    background-color: rgba(153,153,153,.2);
+    color: #666;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+@media screen and (max-width:1024px) {
+    #aboutme {
+        padding-top: 1.8rem;
+    }
+    .aboutme_header h1 {
+        font-size: 2.3rem;
+    }
+    .aboutme_header .divider {
+        margin: 0.5rem auto;
+        width: 8%;
+    }
+    .aboutme_content_description p {
+        margin: 0.8rem 0;
+        font-size: 0.9rem;
+    }
+    .aboutme_content_skills .allSkills .singleSkill {
+        font-size: 0.8rem;
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width:912px) {
+    #aboutme {
+        height: fit-content;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .aboutme_content_description p {
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .aboutme_content_description h2, .aboutme_content_skills h2 {
+        font-size: 1.3rem;
+    }
+    .aboutme_content_description p {
+        font-size: 0.92rem;
+    }
+    .aboutme_content_skills .allSkills .singleSkill {
+        font-size: 0.75rem;
+        padding: 1rem 1.8rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .aboutme_content_description p {
+        font-size: 0.88rem;
+    }
+    .aboutme_content_skills .allSkills .singleSkill {
+        font-size: 0.85rem;
+        padding: 1rem 1.5rem;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .aboutme_content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .aboutme_content_description {
+        width: 100%;
+    }
+    .aboutme_content_skills {
+        width: 100%;
+    }
+}
+@media screen and (max-width:280px) {
+    .aboutme_content_description h2, .aboutme_content_skills h2{
+        font-size: 1rem;
+    }
+    .aboutme_content_description .downloadAndContact a {
+        font-size: 0.6rem;
+    }
+    .aboutme_content_skills .allSkills .singleSkill {
+        font-size: 0.5rem;
+        padding: 0.7rem 1rem;
+    }
+}
