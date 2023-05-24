@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-ben-cn/static/css/main.91ebc5aa.css",
+    "main.js": "/portfolio-ben-cn/static/js/main.d4ff159d.js",
+    "static/js/787.6588b9dd.chunk.js": "/portfolio-ben-cn/static/js/787.6588b9dd.chunk.js",
+    "static/media/cvResumeCN.pdf": "/portfolio-ben-cn/static/media/cvResumeCN.5c767e0fbc854aff9ae4.pdf",
+    "static/media/dealbreaker-min.png": "/portfolio-ben-cn/static/media/dealbreaker-min.e988bd39ec732834512f.png",
+    "static/media/patatos-min.png": "/portfolio-ben-cn/static/media/patatos-min.cf4106f73655a4ade91e.png",
+    "static/media/avatar-min.png": "/portfolio-ben-cn/static/media/avatar-min.25a833befdff2224ba82.png",
+    "static/media/weatherapp-min.png": "/portfolio-ben-cn/static/media/weatherapp-min.7b4973a0257f4255a129.png",
+    "static/media/Blanka-Regular.otf": "/portfolio-ben-cn/static/media/Blanka-Regular.16f6265b20de0db4a921.otf",
+    "index.html": "/portfolio-ben-cn/index.html",
+    "main.91ebc5aa.css.map": "/portfolio-ben-cn/static/css/main.91ebc5aa.css.map",
+    "main.d4ff159d.js.map": "/portfolio-ben-cn/static/js/main.d4ff159d.js.map",
+    "787.6588b9dd.chunk.js.map": "/portfolio-ben-cn/static/js/787.6588b9dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91ebc5aa.css",
+    "static/js/main.d4ff159d.js"
+  ]
+}
