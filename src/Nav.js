@@ -6,7 +6,7 @@ import {BsChat, BsImages, BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
 import '../src/nav.css';
 import {Link} from 'react-scroll';
 // import { Link as CNLink} from "react-router-dom";
-import ME from "../src/assets/avatar.png";
+import ME from "../src/assets/avatar-min.png";
 
 const Nav = () => {
     // responive nav

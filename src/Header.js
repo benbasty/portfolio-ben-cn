@@ -19,7 +19,7 @@ const Header = () => {
             <div className="header__container">
                 <div className='header_intro_container'>
                     <h1 data-aos="fade-down">Hi, I'm <span>Ben Basty</span></h1>
-                    <p className="text-header" data-aos="fade-down">一位前端 Web 开发人员热衷于构建漂亮的前端网站和 Web 应用程序。</p>
+                    <p className="text-header" data-aos="fade-down">一位前端开发工程师热衷于构建漂亮的前端网站和 Web 应用程序。</p>
                     <div id="projectsContactButton">
                         <a href="#projects" className="btn-black">项目</a>
                     </div>

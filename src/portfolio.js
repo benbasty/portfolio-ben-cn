@@ -1,8 +1,8 @@
 import {React , useEffect } from 'react';
 import './portfolio.css';
-import Dealbreaker from '../src/assets/dealbreaker.png';
-import Patatos from '../src/assets/patatos.png';
-import WeatherAPP from '../src/assets/weatherapp.png';
+import Dealbreaker from '../src/assets/dealbreaker-min.png';
+import Patatos from '../src/assets/patatos-min.png';
+import WeatherAPP from '../src/assets/weatherapp-min.png';
 // import IMG4 from '../src/assets/portfolio4.jpg';
 // import IMG5 from '../src/assets/portfolio5.png';
 // import IMG6 from '../src/assets/portfolio6.jpg';

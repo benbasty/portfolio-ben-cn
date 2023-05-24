@@ -1,5 +1,5 @@
 import {React , useEffect } from 'react';
-import CV from '../src/assets/cvResume.pdf';
+import CV from '../src/assets/cvResumeCN.pdf';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 const DownloadAndContact = () => {
